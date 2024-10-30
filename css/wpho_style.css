@@ -1,0 +1,21 @@
+.formmortgage { max-width: 610px;  padding: 20px 12px 10px 20px; font: 13px Arial, Helvetica, sans-serif; }
+.formmortgage-heading { font-weight: bold; border-bottom: 2px solid #ddd; margin-bottom: 20px; font-size: 18px; padding-bottom: 3px; }
+.formmortgage label { display: block; margin: 0px 0px 15px 0px; }
+.formmortgage label > span { width: 185px; font-weight: bold; float: left; padding-top: 8px; padding-right: 5px; }
+.formmortgage span.required { color:red; }
+.formmortgage .tel-number-field { width: 40px; text-align: center; }
+.formmortgage input.input-field { width: 48%; }
+.formmortgage input.input-field-radio { width: 5%; }
+.formmortgage input.input-field,input .input-field-radio .formmortgage .tel-number-field, .formmortgage .textarea-field, .formmortgage .select-field { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; border: 1px solid #C2C2C2; box-shadow: 1px 1px 4px #EBEBEB; -moz-box-shadow: 1px 1px 4px #EBEBEB; -webkit-box-shadow: 1px 1px 4px #EBEBEB; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 7px; outline: none; }
+.formmortgage .input-field:focus, .formmortgage .tel-number-field:focus, .formmortgage .textarea-field:focus, .formmortgage .select-field:focus { border: 1px solid #0C0; }
+.formmortgage .textarea-field { height:100px; width: 55%; }
+.formmortgage input[type=submit], .formmortgage input[type=button] { border: none; padding: 8px 15px 8px 15px; background: #FF8500; color: #fff; box-shadow: 1px 1px 4px #DADADA; -moz-box-shadow: 1px 1px 4px #DADADA; -webkit-box-shadow: 1px 1px 4px #DADADA; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+.formmortgage input[type=submit]:hover, .formmortgage input[type=button]:hover { background: #EA7B00; color: #fff; }
+.formmortgage label.error { font:13px Arial, Helvetica, sans-serif; color:#ED7476; margin-left: 185px; }
+.formmortgage input.error,.formmortgage input.error:hover,.formmortgage input.error:focus,.formmortgage select.error,.formmortgage textarea.error { border:1px solid #ED7476;background:#FFEDED }
+input[type=radio] { display:none; margin:10px; }
+input[type=radio] + label { display:inline-block; margin:-2px; padding: 4px 12px; background-color: #e7e7e7; border-color: #ddd; } 
+input[type=radio]:checked + label { font: 13px Arial, Helvetica, sans-serif; background-image: none; background-color:#a5dc86; } 
+.alert-box {color:#555; border-radius:10px; font: 13px Arial, Helvetica, sans-serif; font-size:15px; padding:10px 36px; margin:10px; }
+.success { background:#e9ffd9; border:1px solid #a6ca8a; }
+.errormsg { background:#ffeded!important; border:1px solid #ed7476!important; }
